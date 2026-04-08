@@ -1,0 +1,26 @@
+{
+  "AAGENESYS": {
+    "Settings": {
+      "TriggerOnAttack": {
+        "Name": "Trigger on Attack Rolls",
+        "Hint": "Play animations when an attack roll chat message is created."
+      },
+      "TriggerOnSkill": {
+        "Name": "Trigger on Skill Rolls",
+        "Hint": "Play animations when a skill (non-attack) roll chat message is created. Only fires if the skill item has AA flags configured."
+      },
+      "RequireSuccess": {
+        "Name": "Attacks: Require Net Success",
+        "Hint": "When enabled, attack animations only play if the roll has at least 1 net success. When disabled, animations always play on an attack roll."
+      },
+      "Debug": {
+        "Name": "Debug Logging",
+        "Hint": "Log detailed information to the browser console to help diagnose issues."
+      }
+    },
+    "Notifications": {
+      "AANotFound": "Automated Animations – Genesys Support: Automated Animations module not found or not active. This module requires Automated Animations to function.",
+      "GenesysNotFound": "Automated Animations – Genesys Support: Genesys system not detected. This module only works with the Genesys system."
+    }
+  }
+}

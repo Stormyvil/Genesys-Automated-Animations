@@ -1,0 +1,40 @@
+{
+  "id": "aa-genesys",
+  "title": "Automated Animations – Genesys Support",
+  "url": "",
+  "description": "Adds Genesys system compatibility to the Automated Animations module.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Stormyvil"
+    }
+  ],
+  "esmodules": [
+    "scripts/aa-genesys.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "autoanimations",
+        "type": "module"
+      }
+    ],
+    "systems": [
+      {
+        "id": "genesys",
+        "type": "system"
+      }
+    ]
+  }
+}
