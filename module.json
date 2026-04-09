@@ -2,8 +2,8 @@
   "id": "aa-genesys",
   "title": "Automated Animations – Genesys Support",
   "url": "https://github.com/Stormyvil/Genesys-Automated-Animations/tree/main",
-  "download":"https://github.com/Stormyvil/Genesys-Automated-Animations/releases/download/1.0.1/aa-genesys.zip",
   "manifest":"https://github.com/Stormyvil/Genesys-Automated-Animations/releases/download/1.0.1/module.json",
+  "download":"https://github.com/Stormyvil/Genesys-Automated-Animations/releases/download/1.0.1/aa-genesys.zip",
   "description": "Adds Genesys system compatibility to the Automated Animations module.",
   "version": "1.0.1",
   "compatibility": {
